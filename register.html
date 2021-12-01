@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,300;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="register.css">
+        <title>Register</title>
+    </head>
+    <body>
+        <section class="login__wrapper">
+            <form action="" class="form">
+                <img src="./assets/user-icon.png" alt="userIcon">
+                <h2>Register</h2>
+                <div class="input__group">
+                    <input type="text" name="nameUser" id="nameUser" required>
+                    <label for="nameUser">Name</label>
+                </div>
+                <div class="input__group">
+                    <input type="text" name="loginUser" id="loginUser" required>
+                    <label for="loginUser">User Name</label>
+                </div>
+                <div class="input__group">
+                    <input type="email" name="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="input__group">
+                    <input type="password" name="loginPassword" id="loginPassword" required>
+                    <label for="loginPassword">Password</label>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="register" class="submit-btn">
+                    <a href="/login.html" class="forgot-pw">Sign Up</a>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('https://i.blogs.es/c76165/carteles-cine-terror/1366_2000.jpg');
+    font-family: sans-serif;
+}
+
+.login__wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    position: relative;
+    width: 100%;
+    max-width: 380px;
+    padding: 80px 40px 40px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    color: #000;
+    box-shadow: 10px 15px 25px rgba(100, 255, 255, 0.9);
+}
+
+.form img {
+    position: absolute;
+    top: -55px;
+    left: calc(50% - 50px);
+    width: 100px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+}
+
+.form h2 {
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    color: #64ffff;
+}
+
+.form .input__group {
+    position: relative;
+}
+
+.form .input__group input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #64ffff;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
+}
+
+.form .input__group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .3s ease-out;
+    color: #fff;
+}
+
+.form .input__group input:focus + label,
+.form .input__group input:valid + label {
+    transform: translateY(-18px);
+    color: #64ffff;
+    font-size: .8rem;
+}
+
+.submit {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    background-color: #64ffff;
+    color: #000;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.forgot-pw {
+    color: #fff;
+    text-decoration: none;
+}
+
+.register {
+    text-align: center;
+}
+
+.register p {
+    margin-bottom: 10px;
+    color: #64ffff;
+}
